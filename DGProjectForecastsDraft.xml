@@ -1,0 +1,268 @@
+<Generator BulkProcess="false" PreloadService="true">
+  <Project Add="1" Action="NewSave,Release" IgnoreWarnings="true">
+    <Code>000***Kat2</Code>
+    <Name>KatsForecastProject</Name>
+    <AlternateName>KatsForecastProject</AlternateName>
+    <StartDate>2019-01-03T00:00:00</StartDate>
+    <FinishDate>2019-01-03T00:00:00</FinishDate>
+    <SyncFeeAmountToTotalBudgetEffort>false</SyncFeeAmountToTotalBudgetEffort>
+    <Client Code="1" />
+    <Manager Code="0001" />
+    <Company Code="1" />
+    <Organization Company.Code="1" Code="01" />
+    <Currency Code="USD" />
+    <ProjectPostingGroup Code="1" />
+    <RegularLabor>true</RegularLabor>
+    <RegularExpense>true</RegularExpense>
+    <AdjustmentLabor>true</AdjustmentLabor>
+    <AdjustmentExpense>true</AdjustmentExpense>
+    <VarianceLevel>Level2</VarianceLevel>
+    <OrgVarianceResponsibility>All</OrgVarianceResponsibility>
+    <BudgetCategoryVarianceResponsibility>All</BudgetCategoryVarianceResponsibility>
+    <AuthorizationBasis>Organization</AuthorizationBasis>
+    <BudgetMethod>Variance</BudgetMethod>
+    <TaskSchedulingPreference>Date</TaskSchedulingPreference>
+    <SchedulingScale>SchedulingDate</SchedulingScale>
+    <AutoPublishLaborAssignments>false</AutoPublishLaborAssignments>
+    <UseRevenueProvisions>false</UseRevenueProvisions>
+    <Template>false</Template>
+    <Status>Active</Status>
+    <Tasks>
+      <Task Outliner="1">
+        <Code>000***Kat</Code>
+        <Name>KatsForecastProject</Name>
+        <StartDate>2019-01-03T00:00:00</StartDate>
+        <FinishDate>2019-01-03T00:00:00</FinishDate>
+        <Duration>1</Duration>
+        <EnteredManager Code="0001" />
+        <EnteredCompany Code="1" />
+        <EnteredOrg Company.Code="1" Code="01" />
+        <EnteredFeeType Code="LS" />
+        <EffectiveRevenueRule>LS</EffectiveRevenueRule>
+        <InitialEffectiveRevenueRule>None</InitialEffectiveRevenueRule>
+        <EnteredBillable>true</EnteredBillable>
+        <EnteredStatus>Active</EnteredStatus>
+        <EffectiveStatus>Active</EffectiveStatus>
+        <BillTaskLink>Available</BillTaskLink>
+        <ConstrainBill>false</ConstrainBill>
+        <ShowSubtasksCover>true</ShowSubtasksCover>
+        <ShowSubtasksBackup>true</ShowSubtasksBackup>
+      </Task>
+      <Task Outliner="1.1">
+        <Code>tsk1</Code>
+        <Name>Task1</Name>
+        <StartDate>2019-01-03T00:00:00</StartDate>
+        <FinishDate>2019-01-03T00:00:00</FinishDate>
+        <Duration>1</Duration>
+        <EffectiveRevenueRule>LS</EffectiveRevenueRule>
+        <InitialEffectiveRevenueRule>None</InitialEffectiveRevenueRule>
+        <EnteredBillable>true</EnteredBillable>
+        <EnteredStatus>Active</EnteredStatus>
+        <EffectiveStatus>Active</EffectiveStatus>
+        <BillTaskLink>Available</BillTaskLink>
+        <ConstrainBill>false</ConstrainBill>
+        <ShowSubtasksCover>true</ShowSubtasksCover>
+        <ShowSubtasksBackup>true</ShowSubtasksBackup>
+        <AuthorizedOrgs>
+          <AuthorizedOrg>
+            <Company Code="1" />
+            <Organization Company.Code="1" Code="01" />
+            <RegularLabor>true</RegularLabor>
+            <RegularExpense>true</RegularExpense>
+            <AdjustmentLabor>true</AdjustmentLabor>
+            <AdjustmentExpense>true</AdjustmentExpense>
+          </AuthorizedOrg>
+        </AuthorizedOrgs>
+        <BudgetedOrgs>
+          <BudgetedOrg>
+            <Company Code="1" />
+            <Organization Company.Code="1" Code="01" />
+            <Delete>false</Delete>
+            <Budgets>
+              <Budget>
+                <BudgetCategory Code="01" />
+                <BudgetEffortPC>10</BudgetEffortPC>
+                <PctComplete>50</PctComplete>
+                <Release>false</Release>
+              </Budget>
+              <Budget>
+                <BudgetCategory Code="03" />
+                <BudgetEffortPC>20</BudgetEffortPC>
+                <PctComplete>50</PctComplete>
+                <Release>false</Release>
+              </Budget>
+              <Budget>
+                <BudgetCategory Code="1L" />
+                <BudgetEffortPC>30</BudgetEffortPC>
+                <PctComplete>50</PctComplete>
+                <Release>false</Release>
+              </Budget>
+              <Budget>
+                <BudgetCategory Code="2E" />
+                <BudgetEffortPC>70</BudgetEffortPC>
+                <PctComplete>50</PctComplete>
+                <Release>false</Release>
+              </Budget>
+            </Budgets>
+          </BudgetedOrg>
+        </BudgetedOrgs>
+      </Task>
+      <Task Outliner="1.2">
+        <Code>tsk2</Code>
+        <Name>Task2</Name>
+        <StartDate>2019-01-03T00:00:00</StartDate>
+        <FinishDate>2019-01-03T00:00:00</FinishDate>
+        <Duration>1</Duration>
+        <EffectiveRevenueRule>LS</EffectiveRevenueRule>
+        <InitialEffectiveRevenueRule>None</InitialEffectiveRevenueRule>
+        <EnteredBillable>true</EnteredBillable>
+        <EnteredStatus>Active</EnteredStatus>
+        <EffectiveStatus>Active</EffectiveStatus>
+        <BillTaskLink>Available</BillTaskLink>
+        <ConstrainBill>false</ConstrainBill>
+        <ShowSubtasksCover>true</ShowSubtasksCover>
+        <ShowSubtasksBackup>true</ShowSubtasksBackup>
+        <AuthorizedOrgs>
+          <AuthorizedOrg>
+            <Company Code="1" />
+            <Organization Company.Code="1" Code="02" />
+            <RegularLabor>true</RegularLabor>
+            <RegularExpense>true</RegularExpense>
+            <AdjustmentLabor>true</AdjustmentLabor>
+            <AdjustmentExpense>true</AdjustmentExpense>
+          </AuthorizedOrg>
+        </AuthorizedOrgs>
+        <BudgetedOrgs>
+          <BudgetedOrg>
+            <Company Code="1" />
+            <Organization Company.Code="1" Code="02" />
+            <Delete>false</Delete>
+            <Budgets>
+              <Budget>
+                <BudgetCategory Code="01" />
+                <BudgetEffortPC>40</BudgetEffortPC>
+                <PctComplete>50</PctComplete>
+                <Release>false</Release>
+              </Budget>
+              <Budget>
+                <BudgetCategory Code="03" />
+                <BudgetEffortPC>50</BudgetEffortPC>
+                <PctComplete>50</PctComplete>
+                <Release>false</Release>
+              </Budget>
+              <Budget>
+                <BudgetCategory Code="1L" />
+                <BudgetEffortPC>60</BudgetEffortPC>
+                <PctComplete>50</PctComplete>
+                <Release>false</Release>
+              </Budget>
+              <Budget>
+                <BudgetCategory Code="2E" />
+                <BudgetEffortPC>80</BudgetEffortPC>
+                <PctComplete>50</PctComplete>
+                <Release>false</Release>
+              </Budget>
+            </Budgets>
+          </BudgetedOrg>
+        </BudgetedOrgs>
+      </Task>
+    </Tasks>
+    <Forecasts>
+      <Forecast>
+        <BudgetCategory Code="01" />
+        <PostingPeriod Code="201810" />
+        <ForecastRevenuePC>1</ForecastRevenuePC>
+      </Forecast>
+      <Forecast>
+        <BudgetCategory Code="03" />
+        <PostingPeriod Code="201810" />
+        <ForecastRevenuePC>2</ForecastRevenuePC>
+      </Forecast>
+      <Forecast>
+        <BudgetCategory Code="1L" />
+        <PostingPeriod Code="201810" />
+        <ForecastRevenuePC>3</ForecastRevenuePC>
+      </Forecast>
+      <Forecast>
+        <BudgetCategory Code="2E" />
+        <PostingPeriod Code="201810" />
+        <ForecastRevenuePC>4</ForecastRevenuePC>
+      </Forecast>
+      <Forecast>
+        <BudgetCategory Code="E1" />
+        <PostingPeriod Code="201810" />
+        <ForecastRevenuePC>5</ForecastRevenuePC>
+      </Forecast>
+      <Forecast>
+        <BudgetCategory Code="E1" />
+        <PostingPeriod Code="201811" />
+        <ForecastRevenuePC>10</ForecastRevenuePC>
+      </Forecast>
+      <Forecast>
+        <BudgetCategory Code="2E" />
+        <PostingPeriod Code="201811" />
+        <ForecastRevenuePC>9</ForecastRevenuePC>
+      </Forecast>
+      <Forecast>
+        <BudgetCategory Code="1L" />
+        <PostingPeriod Code="201811" />
+        <ForecastRevenuePC>8</ForecastRevenuePC>
+      </Forecast>
+      <Forecast>
+        <BudgetCategory Code="01" />
+        <PostingPeriod Code="201811" />
+        <ForecastRevenuePC>6</ForecastRevenuePC>
+      </Forecast>
+      <Forecast>
+        <BudgetCategory Code="03" />
+        <PostingPeriod Code="201811" />
+        <ForecastRevenuePC>7</ForecastRevenuePC>
+      </Forecast>
+      <Forecast>
+        <BudgetCategory Code="01" />
+        <PostingPeriod Code="201902" />
+        <ForecastRevenuePC>11</ForecastRevenuePC>
+      </Forecast>
+      <Forecast>
+        <BudgetCategory Code="03" />
+        <PostingPeriod Code="201902" />
+        <ForecastRevenuePC>12</ForecastRevenuePC>
+      </Forecast>
+      <Forecast>
+        <BudgetCategory Code="1L" />
+        <PostingPeriod Code="201902" />
+        <ForecastRevenuePC>13</ForecastRevenuePC>
+      </Forecast>
+      <Forecast>
+        <BudgetCategory Code="2E" />
+        <PostingPeriod Code="201902" />
+        <ForecastRevenuePC>14</ForecastRevenuePC>
+      </Forecast>
+      <Forecast>
+        <BudgetCategory Code="01" />
+        <PostingPeriod Code="201903" />
+        <ForecastRevenuePC>15</ForecastRevenuePC>
+      </Forecast>
+      <Forecast>
+        <BudgetCategory Code="03" />
+        <PostingPeriod Code="201903" />
+        <ForecastRevenuePC>16</ForecastRevenuePC>
+      </Forecast>
+      <Forecast>
+        <BudgetCategory Code="1L" />
+        <PostingPeriod Code="201903" />
+        <ForecastRevenuePC>17</ForecastRevenuePC>
+      </Forecast>
+      <Forecast>
+        <BudgetCategory Code="01" />
+        <PostingPeriod Code="201904" />
+        <ForecastRevenuePC>18</ForecastRevenuePC>
+      </Forecast>
+      <Forecast>
+        <BudgetCategory Code="03" />
+        <PostingPeriod Code="201904" />
+        <ForecastRevenuePC>19</ForecastRevenuePC>
+      </Forecast>
+    </Forecasts>
+  </Project>
+</Generator>
